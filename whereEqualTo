@@ -1,0 +1,5 @@
+db
+  .collection("aa")
+  .whereEqualTo("capital", true)
+  .get()
+  .addSnapshotListener{}
